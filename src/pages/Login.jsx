@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 const API = import.meta.env.VITE_API || 'http://localhost:4000';
 
 export default function Login(){
-  const [email,setEmail] = useState('')
+  const [email,setEmail] = useState('alice@example.com')
   const [password,setPassword] = useState('password123')
   const [error,setError] = useState('')
 
