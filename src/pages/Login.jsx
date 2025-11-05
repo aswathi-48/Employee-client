@@ -40,7 +40,7 @@ export default function Login(){
         </div>
         <button className="w-full py-2 rounded-lg bg-gray-900 text-white hover:opacity-90">Log in</button>
  <p className="text-xs text-gray-500 text-center">
-          New user? <a className="text-indigo-600" href="/register">Regiter </a>
+        create new account? <a className="text-indigo-600" href="/register">Regiter </a>
         </p>      </form>
     </div>
   )
