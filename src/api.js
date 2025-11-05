@@ -1,4 +1,6 @@
-const API = import.meta.env.VITE_API || 'http://localhost:4000';
+// const API = import.meta.env.VITE_API || 'http://localhost:4000';
+const API = "https://employee-server-1-mk5p.onrender.com";
+
 export async function api(path, opts={}){
   const token = localStorage.getItem('token');
   const res = await fetch(`${API}/api${path}`, {
