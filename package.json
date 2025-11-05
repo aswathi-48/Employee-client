@@ -5,8 +5,9 @@
   "type": "module",
  "scripts": {
   "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+  "build": "npm run fix-permissions && vite build",
+  "preview": "vite preview",
+  "fix-permissions": "chmod +x ./node_modules/vite/bin/vite.js || true"
 },
 
   "dependencies": {
